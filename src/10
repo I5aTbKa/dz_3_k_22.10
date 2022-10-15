@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    System.out.println("Введите число");
+    Scanner in = new Scanner(System.in);
+    Integer num1 = in.nextInt();
+    System.out.println(num1 * num1);
+    System.out.println(num1 * num1 * num1);
+    System.out.println(num1 * num1 * num1 * num1);
+}
+}
