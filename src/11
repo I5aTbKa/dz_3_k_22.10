@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    System.out.println("Введите 3 стороны");
+    Scanner in = new Scanner(System.in);
+    Integer num1 = in.nextInt();
+    Integer num2 = in.nextInt();
+    Integer num3 = in.nextInt();
+    if (num1 + num2 > num3){
+        if (num1 + num3 > num2){
+            if (num2 + num3 > num1){
+                System.out.println("могут");  
+            }
+        }
+    } else {
+        System.out.println("не могут");}
+}
+}
