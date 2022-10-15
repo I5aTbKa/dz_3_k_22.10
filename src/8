@@ -1,0 +1,11 @@
+import java.util.Scanner;
+import static java.lang.Math.*;
+public class Main{
+    public static void main(String[] args){
+        System.out.print("Введите температуру в Фаренгейта");
+        Scanner in = new Scanner(System.in);
+        double F = in.nextDouble();
+        double C = ((F-32)/1.8);
+        System.out.println(C);
+    }
+}
